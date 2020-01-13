@@ -1,0 +1,19 @@
+Identifiant;Date;Description;Montant;Address
+8;16/11/2019;paiement;100007;Accra, Ghana
+9;17/11/2019;Transfer ;100008;Lagos, Nigeria
+10;18/11/2019;versement;100019;Ouagadougou, Burkina Faso
+11;19/11/2019;versement facture 1;100010;Accra, Ghana
+12;20/11/2019;versement facture 2 ;100011;Lagos, Nigeria
+1;09/11/2019;paiement facture;100000;Lagos, Nigeria
+2;10/11/2019;versement;100001;Accra, Ghana
+3;11/11/2019;Retrait;100002;Ouagadougou, Burkina Faso
+4;12/11/2019;Transfer ;100003;Lagos, Nigeria
+5;13/11/2019;Retrait;100004;Accra, Ghana
+6;14/11/2019;paiement facture ONEA;100005;Ouagadougou, Burkina Faso
+7;15/11/2019;versement sur la caisse;100006;Lagos, Nigeria
+13;21/11/2019;Retrait;100012;Ouagadougou, Burkina Faso
+14;22/11/2019;versement facture 54;100013;Accra, Ghana
+15;23/11/2019;Retrait;100014;Lagos, Nigeria
+16;24/11/2019;Transfer ;100015;Ouagadougou, Burkina Faso
+17;25/11/2019;versement;100016;Accra, Ghana
+18;26/11/2019;paiement;100017;Lagos, Nigeria

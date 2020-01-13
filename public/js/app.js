@@ -1884,6 +1884,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'app-component'
 });
@@ -2262,6 +2265,74 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'home-component'
 });
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HowToComponent.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HowToComponent.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -88274,6 +88345,22 @@ var render = function() {
                     )
                   ],
                   1
+                ),
+                _vm._v(" "),
+                _c(
+                  "li",
+                  { staticClass: "nav-item" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "nav-link",
+                        attrs: { to: { name: "howTo" } }
+                      },
+                      [_vm._v("How To")]
+                    )
+                  ],
+                  1
                 )
               ])
             ]
@@ -88903,6 +88990,127 @@ var staticRenderFns = [
         ])
       ])
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706&":
+/*!*****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706& ***!
+  \*****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "container", staticStyle: { "padding-bottom": "100px" } },
+      [
+        _c("div", { staticClass: "row mb-5" }, [
+          _c("div", { staticClass: "col-12 pt-5" }, [
+            _c("div", { staticClass: "card" }, [
+              _c("div", { staticClass: "card-body" }, [
+                _c("h3", [_vm._v("Upload")]),
+                _vm._v(" "),
+                _c("hr"),
+                _vm._v(" "),
+                _c("h4", [_vm._v("\n\t\t\t\t\t\t\tIntro\n\t\t\t\t\t\t")]),
+                _vm._v(" "),
+                _c("span", { staticClass: "text-info" }, [
+                  _vm._v(
+                    "If you simply want to test the application with a file containing dummy data, you can download "
+                  ),
+                  _c("a", { attrs: { href: "/download/file-1.csv" } }, [
+                    _c("strong", [_vm._v("file 1")])
+                  ]),
+                  _vm._v(" and "),
+                  _c("a", { attrs: { href: "/download/file-2.csv" } }, [
+                    _c("strong", [_vm._v("file 2")])
+                  ]),
+                  _vm._v(" to help you get started.")
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n\t\t\t\t\t\t\tGuiela does not require a login or registration before use, all you need are the two CSVs you wish to compare.\n\t\t\t\t\t\t"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h4", [_vm._v(" Delimiter ")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n\t\t\t\t\t\t\tVisit the dashboard page, you will see two file input fields, this however does not get disabled unless you select a delimiter. "
+                  ),
+                  _c("strong", [_vm._v("Delimiter")]),
+                  _vm._v(
+                    ' refers to what is used to demarcate your CSV conent.\n\t\t\t\t\t\t\tIn most cases this will be a "comma (,)" but in a situation where its not, the delimiter field allows you to specify which is the accurate delimiter.\n\t\t\t\t\t\t'
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h4", [_vm._v("File")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    '\n\t\t\t\t\t\t\tAfter you select a delimiter, the file field will be enabled and selecting a file is a consept we all know too well but you have to keep a few things in mind.\n\t\t\t\t\t\t\tThe first file input field is labeled "Domestic", and to ensure accurate result it is imperative you upload your internal CSV records with the domestic input field and the external with the "Foreign" input field.\n\t\t\t\t\t\t'
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h3", [_vm._v("Constraints")]),
+                _vm._v(" "),
+                _c("hr"),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Identifiers")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("\n\t\t\t\t\t\t\tThe "),
+                  _c("strong", [_vm._v("identifier")]),
+                  _vm._v(
+                    " is the column used by Guiela to find a record on each of the CSV and compare their values.\n\t\t\t\t\t\t"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Matchers")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v("\n\t\t\t\t\t\t\tThe "),
+                  _c("strong", [_vm._v("matcher")]),
+                  _vm._v(
+                    " is the column that should be equal on both CSVs.\n\t\t\t\t\t\t"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("h4", [_vm._v("Value pairs")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "\n\t\t\t\t\t\t\tThis is used to specify explicitly which record is to be matched. Only the row with the values selected will be matched. You can match one or more columns if you want.\n\n\t\t\t\t\t\t"
+                  )
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -106038,6 +106246,7 @@ var map = {
 	"./components/DashboardComponent.vue": "./resources/js/components/DashboardComponent.vue",
 	"./components/FileComponent.vue": "./resources/js/components/FileComponent.vue",
 	"./components/HomeComponent.vue": "./resources/js/components/HomeComponent.vue",
+	"./components/HowToComponent.vue": "./resources/js/components/HowToComponent.vue",
 	"./components/LoginComponent.vue": "./resources/js/components/LoginComponent.vue",
 	"./components/PageSpinnerComponent.vue": "./resources/js/components/PageSpinnerComponent.vue",
 	"./components/RegisterComponent.vue": "./resources/js/components/RegisterComponent.vue",
@@ -106485,6 +106694,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeComponent_vue_vue_type_template_id_782dcf83_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeComponent_vue_vue_type_template_id_782dcf83_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/HowToComponent.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/HowToComponent.vue ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HowToComponent.vue?vue&type=template&id=524f0706& */ "./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706&");
+/* harmony import */ var _HowToComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HowToComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/HowToComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _HowToComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/HowToComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/HowToComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/HowToComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HowToComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./HowToComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HowToComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HowToComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706& ***!
+  \***********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./HowToComponent.vue?vue&type=template&id=524f0706& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HowToComponent.vue?vue&type=template&id=524f0706&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HowToComponent_vue_vue_type_template_id_524f0706___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
@@ -107107,9 +107385,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _components_HomeComponent_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HomeComponent.vue */ "./resources/js/components/HomeComponent.vue");
 /* harmony import */ var _components_DashboardComponent_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/DashboardComponent.vue */ "./resources/js/components/DashboardComponent.vue");
+/* harmony import */ var _components_HowToComponent_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/HowToComponent.vue */ "./resources/js/components/HowToComponent.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
 
  // import LoginComponent from '../components/LoginComponent.vue'
 // import RegisterComponent from '../components/RegisterComponent.vue'
@@ -107122,6 +107402,10 @@ var routes = [{
   path: '/dashboard',
   name: 'dashboard',
   component: _components_DashboardComponent_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, {
+  path: '/how-to',
+  name: 'howTo',
+  component: _components_HowToComponent_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
 } // {
 //   path: '/login',
 //   name: 'login',
@@ -107265,8 +107549,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/anitche-c/Documents/Code/Laravel/guiela/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/anitche-c/Documents/Code/Laravel/guiela/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/anitche-c/Documents/Code/guiela/guiela/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/anitche-c/Documents/Code/guiela/guiela/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

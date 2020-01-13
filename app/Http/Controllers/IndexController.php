@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Services\CsvService;
 use Illuminate\Http\Request;
 use App\Http\Requests\CompareRequest;
+use Illuminate\Support\Facades\Storage;
 use App\Http\Requests\ConversionRequest;
 
 /**
@@ -83,5 +84,16 @@ class IndexController extends Controller
                                 ->getResult();                          // Retrieve result.
 
         return response()->json($response);
+    }
+
+    /**
+     * Download sample csv
+     *
+     * @param Request $request
+     * @return void
+     */
+    public function download(Request $request)
+    {
+        return Storage::disk('download')->download($request->segment(2), $request->segment(2));
     }
 }

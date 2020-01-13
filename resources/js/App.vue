@@ -20,6 +20,9 @@
 					<li class="nav-item">
 						<router-link :to="{ name: 'dashboard' }" class="nav-link">Dashboard</router-link>
 					</li>
+					<li class="nav-item">
+						<router-link :to="{ name: 'howTo' }" class="nav-link">How To</router-link>
+					</li>
 					<!-- <li class="nav-item">
 						<router-link :to="{ name: 'login' }" class="nav-link">Login</router-link>
 					</li>

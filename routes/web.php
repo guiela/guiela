@@ -14,3 +14,4 @@
 Route::get('/{any?}', 'IndexController');
 
 // Auth::routes();
+Route::get('/download/{file}', 'IndexController@download');

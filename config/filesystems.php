@@ -42,6 +42,11 @@ return [
     */
 
     'disks' => [
+        'download' => [
+            'driver' => 'local',
+            'root' => public_path('example'),
+            'url' => env('APP_URL').'/example',
+        ],
 
         'local' => [
             'driver' => 'local',
